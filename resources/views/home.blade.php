@@ -27,17 +27,17 @@
             <div class = "home-social-media">
                 <ul>
                     <li>
-                        <a href = "#" class = "fa fa-facebook"></a>
-                        <a href = "#" class = "fa fa-twitter"></a>
-                        <a href = "#" class = "fa fa-instagram"></a>
-                        <a href = "#" class = "fa fa-linkedin"></a>
+                        <a href = "https://m.facebook.com/profile.php/?id=100010089589139&name=xhp_nt__fb__action__open_user" class = "fa fa-facebook"></a>
+                        <a href = "https://twitter.com/belzsugarlove18" class = "fa fa-twitter"></a>
+                        <a href = "https://instagram.com/bel.ganzz1?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class = "fa fa-instagram"></a>
+                        <a href = "https://www.linkedin.com/in/belinda-gan-4300b31b7/" class = "fa fa-linkedin"></a>
                     </li>
                 </ul>
             </div>
             <br>
             <br>
             <br>
-            <a href = "#" class = "btn">Download My Resume Here</a>
+            <a href = "https://drive.google.com/drive/folders/1k8ocaGRu__PQPHY02wknlKBSnaDhnv_J" class = "btn">Download My Resume Here</a>
         </div>
 
         <div class = "pp">

@@ -9,6 +9,6 @@ class Experience extends Model
 {
     use HasFactory;
 
-    // attributes: experience_id, experience_name, experience_time, experience_desc, experience_image
-    protected $fillable = ['experience_name', 'experience_desc', 'experience_time', 'experience_image'];
+    // attributes: job_id, job_pos, workplace, job_category, job_start_date, job_finish_date, job_desc, job_image
+    protected $fillable = ['job_pos', 'workplace', 'job_category', 'job_desc', 'job_start_date', 'job_finish_date', 'job_image'];
 }

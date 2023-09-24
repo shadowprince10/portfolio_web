@@ -28,22 +28,22 @@
                             <div class = "form-box">
                                 <label for = "name">Your Name</label>
                                 <br>
-                                <input type = "text" placeholder = "please input your name" required autofocus>
+                                <input type = "text" placeholder = "please input your name" name = "name" required autofocus>
                             </div>
                             <div class = "form-box">
                                 <label for = "email">Your Email</label>
                                 <br>
-                                <input type = "email" placeholder = "please input your email" required>
+                                <input type = "email" placeholder = "please input your email" name = "email" required>
                             </div>
                             <div class = "form-box">
                                 <label for = "phone-number">Your Phone Number</label>
                                 <br>
-                                <input type = "text" placeholder = "please input your phone number, e.g. +628112345678" required>
+                                <input type = "text" placeholder = "please input your phone number, e.g. +628112345678" name = "phone-number" required>
                             </div>
                             <div class = "form-box">
                                 <label for = "message">Message</label>
                                 <br>
-                                <textarea placeholder = "write your message here..." required></textarea>
+                                <textarea placeholder = "write your message here..." name = "message" required></textarea>
                             </div>
                         </form>
                     </div>
@@ -91,10 +91,10 @@
             <br>
             <ul>
                 <li>
-                    <a href = "#" class = "fa fa-facebook"></a>
-                    <a href = "#" class = "fa fa-twitter"></a>
-                    <a href = "#" class = "fa fa-instagram"></a>
-                    <a href = "#" class = "fa fa-linkedin"></a>
+                    <a href = "https://m.facebook.com/profile.php/?id=100010089589139&name=xhp_nt__fb__action__open_user" class = "fa fa-facebook"></a>
+                    <a href = "https://twitter.com/belzsugarlove18" class = "fa fa-twitter"></a>
+                    <a href = "https://instagram.com/bel.ganzz1?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class = "fa fa-instagram"></a>
+                    <a href = "https://www.linkedin.com/in/belinda-gan-4300b31b7/" class = "fa fa-linkedin"></a>
                 </li>
             </ul>
             <br>

@@ -45,7 +45,6 @@ Route::get('/', function() {
 */
 Route::get('/about', [AboutMeController::class, 'index']) -> name('about');
 Route::get('/contact', [ContactController::class, 'index']) -> name('contact');
-Route::get('/projects', [ProjectController::class, 'index']) -> name('projects');
 Route::resource('projects', ProjectController::class);
 Route::resource('experiences', ExperienceController::class);
 Route::resource('certifications', CertificationController::class);
@@ -70,5 +69,11 @@ References:
 - https://www.youtube.com/watch?v=2HdNwGUBGF4&list=WL&index=5
 - https://www.rapidtables.com/web/color/purple-color.html
 - https://www.tutorialspoint.com/css/css_positioning.htm
+- https://www.w3schools.com/css/css3_buttons.asp
+- https://www.geeksforgeeks.org/css-translatey-function/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY
+- https://www.w3schools.com/howto/howto_css_arrows.asp
+- https://laravel.com/docs/10.x/validation
+- https://www.youtube.com/watch?v=HqAMb6kqlLs&list=PLFIM0718LjIWiihbBIq-SWPU6b6x21Q_2
 */
 

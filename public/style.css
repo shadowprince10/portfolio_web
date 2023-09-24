@@ -429,6 +429,39 @@ hr {
     background-color:darkviolet;
 }
 
+/*
+.message-form .submit-form .form-box input, .message-form .submit-form .form-box textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+*/
+
+/*
+.message-form .submit-form .form-box input:focus ~ label,
+.message-form .submit-form .form-box input:valid ~ label,
+.message-form .submit-form .form-box textarea:focus ~ label,
+.message-form .submit-form .form-box textarea:valid ~ label {
+    color:cornflowerblue;
+    font-size: 16px;
+}
+
+
+.message-form .submit-form .form-box input[type = "submit"] {
+    width: 100px;
+    background-color:aqua;
+    color:white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+*/
+
 .contact-content .submit-form {
     position: relative;
     width: 100%;
@@ -547,3 +580,257 @@ hr {
     background: transparent;
     color:yellow;
 }
+
+/*
+@media (max-width: 1000px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .contact-content .submit-form {
+        flex-direction: column;
+    }
+
+    .contact-content .contact-info {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}
+*/
+
+
+/* Index section of Certifications, Projects, and Work Experiences */
+.button {
+    /* background-color:black; */
+    border-radius: 4px;
+    /* padding: 15px 32px; */
+    padding: 8px 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border: 1px solid whitesmoke;
+    padding: 3px;
+    width: 300px;
+    height: 35px;
+    background-color:black;
+}
+
+button {
+    /* background-color:black; */
+    border-radius: 4px;
+    /* padding: 15px 32px; */
+    padding: 8px 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border: 1px solid whitesmoke;
+    padding: 3px;
+    width: 300px;
+    height: 35px;
+    background-color:black;
+    color:orange;
+}
+
+.button .create-btn {
+    /*
+    padding: 8px 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    margin: 20px auto;
+    display: block;
+    text-decoration: none;
+    background-color:black;
+    */
+    color:deepskyblue;
+}
+
+.create-btn:hover {
+    color:blue;
+}
+
+.button .show-btn {
+    justify-content: center;
+    align-items: center;
+    color:yellow;
+}
+
+.button .show-btn:hover {
+    color:goldenrod;
+}
+
+.button .update-btn {
+    color:yellowgreen;
+}
+
+.button .update-btn:hover {
+    color:lightseagreen;
+}
+
+/*
+button .delete-btn {
+    color:red;
+}
+
+button .delete-btn:hover {
+    color:orangered;
+}
+*/
+
+button:hover {
+    color:orangered;
+}
+
+.button .submit-btn {
+    color:greenyellow;
+}
+
+.button .submit-btn:hover {
+    color:aqua;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 5px;
+    background-color:purple;
+}
+
+.certif-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:purple;
+}
+
+.certif-container .content-box h2 {
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bolder;
+    color:yellow;
+}
+
+.exp-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:purple;
+}
+
+.exp-container .card .content-box h2 {
+    font-size: 25px;
+    font-weight: bolder;
+	color:yellow;
+	text-decoration: underline;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 800px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-color:darkslateblue;
+    overflow: hidden;
+}
+
+.card img {
+    width:100%;
+    height:100%;
+    /* object-fit: cover; */
+    border-radius: 5px;
+}
+
+.content-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color:mediumpurple;
+}
+
+.card:hover .content-box {
+    transform: translateY(0); /* repositions an element vertically in 2D plane */
+}
+
+.card .content-box h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.card .content-box h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 40px;
+}
+
+.card .content-box p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 20px 0 40px;
+}
+
+.card .content-box p a {
+    color:blue;
+}
+
+.header {
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    */
+    display: flex;
+    flex-direction: column; /* supaya antara satu div dengan div yang lain tidak menyamping, tetapi div setelahnya akan berada di bawah div sebelumnya */
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:purple;
+    /* padding: 70px 10% 0; */ /* 70px is for top, 10% is for left and right, 0 is for bottom
+    padding: 0 10%; /* 0 is for top and bottom padding, while 10% is for right and left padding
+    background-color:purple; */
+}
+
+.header .title {
+    color:yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    background-color:purple;
+}
+
+

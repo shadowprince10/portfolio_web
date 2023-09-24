@@ -15,9 +15,9 @@
             <ul>
                 <li><a href = "{{ route('home') }}">Home</a></li>
                 <li><a href = "{{ route('about') }}">About Me</a></li>
-                <li><a href = "{{ route('projects') }}">Projects</a></li>
-                <li><a href = "{{ route('experiences') }}">Work Experiences</a></li>
-                <li><a href = "{{ route('certifications') }}">Certifications</a></li>
+                <li><a href = "{{ route('projects.index') }}">Projects</a></li>
+                <li><a href = "{{ route('experiences.index') }}">Work Experiences</a></li>
+                <li><a href = "{{ route('certifications.index') }}">Certifications</a></li>
                 <li><a href = "{{ route('contact') }}">Contact</a></li>
             </ul>
         </nav>
